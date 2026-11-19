@@ -58,3 +58,5 @@ else:
         if mode == ["Evaluate Answer","Improve Answer"] and (not question.strip()):
        st.warning("please enter a valid Question and Answer")
         st.stop()
+if mode == "Generate Question":
+    task = "generete" +s
